@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">parallal testing</th></tr>
+<tr><td><a href="#t0">parallal testing 01</a></td><td class="num">14</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">213</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">parallal testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">parallal testing 01 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNG_others.test_parallal</td><td><a href="#m0">test_ispassed</a></td><td rowspan="1">1793180332769</td><td rowspan="1">33</td></tr><tr><th colspan="4">parallal testing 01 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="14">TestNG_others.test_parallal</td><td><a href="#m1">test_ispassed</a></td><td rowspan="2">1793180332847</td><td rowspan="2">3</td></tr><tr class="passedeven"><td><a href="#m2">test_ispassed</a></td></tr><tr class="passedeven"><td><a href="#m3">validate_registerStudent</a></td><td rowspan="3">1793180332843</td><td rowspan="3">3</td></tr><tr class="passedeven"><td><a href="#m4">validate_registerStudent</a></td></tr><tr class="passedeven"><td><a href="#m5">validate_registerStudent</a></td></tr><tr class="passedeven"><td><a href="#m6">validation_getgrade</a></td><td rowspan="9">1793180332809</td><td rowspan="9">24</td></tr><tr class="passedeven"><td><a href="#m7">validation_getgrade</a></td></tr><tr class="passedeven"><td><a href="#m8">validation_getgrade</a></td></tr><tr class="passedeven"><td><a href="#m9">validation_getgrade</a></td></tr><tr class="passedeven"><td><a href="#m10">validation_getgrade</a></td></tr><tr class="passedeven"><td><a href="#m11">validation_getgrade</a></td></tr><tr class="passedeven"><td><a href="#m12">validation_getgrade</a></td></tr><tr class="passedeven"><td><a href="#m13">validation_getgrade</a></td></tr><tr class="passedeven"><td><a href="#m14">validation_getgrade</a></td></tr></tbody>
+</table>
+<h2>parallal testing 01</h2><h3 id="m0">TestNG_others.test_parallal#test_ispassed</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>44</td><td>false</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [true] but found [false]
+	at TestNG_others.test_parallal.test_ispassed(test_parallal.java:40)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.base/java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:330)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java)
+	at --- Async.Stack.Trace --- (captured by IntelliJ IDEA debugger)
+	at java.base/java.util.concurrent.FutureTask.&lt;init&gt;(FutureTask.java:153)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestNG_others.test_parallal#test_ispassed</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>66</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestNG_others.test_parallal#test_ispassed</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>50</td><td>true</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestNG_others.test_parallal#validate_registerStudent</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>thulakshana</td><td>11</td><td>Student must be 18 or older</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestNG_others.test_parallal#validate_registerStudent</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>null</td><td>55</td><td>Invalid name</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestNG_others.test_parallal#validate_registerStudent</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th></tr><tr class="param stripe"><td>thulakshana</td><td>55</td><td>Registration successful</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>65</td><td>B</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>55</td><td>C</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>75</td><td>A</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>51</td><td>S</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>78</td><td>A</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>50</td><td>S</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>68</td><td>B</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>58</td><td>C</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestNG_others.test_parallal#validation_getgrade</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>44</td><td>F</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
